@@ -81,6 +81,21 @@
         {
             cursor: pointer;
         }
+
+        .main:hover .second
+        {
+            animation-name:test;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+        }
+
+        @keyframes test
+        {
+            100%
+            {
+                transform: translateY(100%);
+            }
+        }
 </style>
 
 <head> 
@@ -96,11 +111,15 @@
         <center>
             <img class="youtube-banner" src="https://yt3.googleusercontent.com/pQZPWnws_JXPWkSPe6qifKu9NuEq-xle2PiOfYtCaDQQf4NXv_hBzVR0Nt46_VS9oPsaiQ_nQw=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj" alt="youtube-banner" width="70%" height="35%" onclick="document.location='https://yt3.googleusercontent.com/pQZPWnws_JXPWkSPe6qifKu9NuEq-xle2PiOfYtCaDQQf4NXv_hBzVR0Nt46_VS9oPsaiQ_nQw=w2276-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj'">
             <h1>
+                <div class="main">
+                    <div class="second">
             <img class="Profile-Picture" src="https://yt3.googleusercontent.com/uHA5CsfcKErTheCUeB4-EppWwJFogdLREATVWoCgC_zH1IiJbImBVEf35q-0uTVHG1P2Ti-i=s160-c-k-c0x00ffffff-no-rj" alt="Profile Picture" width="50" height="50" onclick="document.location='https://yt3.googleusercontent.com/uHA5CsfcKErTheCUeB4-EppWwJFogdLREATVWoCgC_zH1IiJbImBVEf35q-0uTVHG1P2Ti-i=s160-c-k-c0x00ffffff-no-rj'">
                 XimenaVlogs
                 <button class="subscribe-button" style ="color: white;" onclick="document.location= 'https://www.youtube.com/@x.villagomezzvlogs'">
 					subscribe
 				</button>
+            </div>
+        </div>
                 </h1>
                 <br>
 
